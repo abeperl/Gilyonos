@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GilyonosC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GilyonosServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://ladaat.info</Value>
+    </Setting>
+    <Setting Name="GilyonosDLPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://ladaat.info/gilyonot.aspx</Value>
+    </Setting>
+    <Setting Name="GilyonosConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source="C:\Users\aperl\Documents\Visual Studio 2010\Projects\WCSolutions\Gilyonos\Gilyonos.accdb"&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source="C:\Users\aperl\Documents\Visual Studio 2010\Projects\WCSolutions\Gilyonos\Gilyonos.accdb"</Value>
+    </Setting>
+    <Setting Name="GilyonosConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Gilyonos.accdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Gilyonos.accdb</Value>
+    </Setting>
+    <Setting Name="SpecialFolder1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Special</Value>
+    </Setting>
+    <Setting Name="Gilyonos_AzureConnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=stjwlgu1zv.database.windows.net;Initial Catalog=Gilyonos;Persist Security Info=True;User ID=abep;Password=119ap214$&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=stjwlgu1zv.database.windows.net;Initial Catalog=Gilyonos;Persist Security Info=True;User ID=abep;Password=119ap214$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
